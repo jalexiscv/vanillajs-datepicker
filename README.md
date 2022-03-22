@@ -19,7 +19,7 @@ The package also includes pre-built js/css files for those who like to use it di
 - Lightweight (well, relatively…) — 34kB (minified, uncompressed)
 
 
-Description:
+### Description:
 
 This is a flexible, powerful, accessible, multi-language, framework-agnostic date & date range picker for modern web design.
 
@@ -34,7 +34,7 @@ Main features:
     Allows to disable/highlight specific days.
     Custom date format.
 
-##How to use it:
+### How to use it:
 
 1. Include the stylesheet in the head section of the document.
 
@@ -47,20 +47,20 @@ Main features:
 <!-- For Foundation -->
 <link href="dist/css/datepicker-foundation.min.css" rel="stylesheet" />
 
-##2. Include the main JavaScript and local files at the end of the document.
+### 2. Include the main JavaScript and local files at the end of the document.
 
 <script src="dist/js/datepicker.min.js"></script>
 <script src="dist/js/locales/fr.min.js"></script>
 
-##3. Or include the all-in-on JS as follows:
+### 3. Or include the all-in-on JS as follows:
 
 <script src="dist/js/datepicker-full.min.js"></script>
 
-##4. Create an inline date picker and define the selected date in the data-date attribute.
+### 4. Create an inline date picker and define the selected date in the data-date attribute.
 
 <div id="inline" data-date="01/05/2020"></div>
 
-##5. Attach the date picker to an input field you specify.
+### 5. Attach the date picker to an input field you specify.
 
 <input type="text" name="datepicker">
 
@@ -69,7 +69,7 @@ const datepicker = new Datepicker(elem, {
       // options here
 });
 
-##6. Create a date range picker from two input fields as follows:
+### 6. Create a date range picker from two input fields as follows:
 
 <div id="range">
   <input type="text" name="start">
@@ -82,7 +82,7 @@ const dateRangePicker = new DateRangePicker(elem, {
       // options here
 });
 
-##7. Default options & callback functions for the date picker.
+### 7. Default options & callback functions for the date picker.
 
 const datepicker = new Datepicker(elem, {
       // Whether or not to close the datepicker immediately when a date is selected.
@@ -196,7 +196,7 @@ const datepicker = new Datepicker(elem, {
       }
 });
 
-##8. Additional settings for the date range picker.
+### 8. Additional settings for the date range picker.
 
 const dateRangePicker = new DateRangePicker(elem, {
       // Whether to allow one side of the date-range to be blank.
@@ -206,7 +206,7 @@ const dateRangePicker = new DateRangePicker(elem, {
       
 });
 
-##9. Available props & methods.
+### 9. Available props & methods.
 
 // Determines if the date picker is shown
 Datepicker.active
@@ -301,7 +301,7 @@ instance.addEventListener('show', function (e, details) {
   */
 });
 
-Changelog:
+###  Changelog:
 
 v1.2.0 (01/01/2022)
 
