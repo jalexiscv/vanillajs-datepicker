@@ -38,14 +38,17 @@ Main features:
 
 1. Include the stylesheet in the head section of the document.
 
-<!-- Standalone -->
-<link href="dist/css/datepicker.min.css" rel="stylesheet" />
-<!-- For Bootstrap 4 -->
-<link href="dist/css/datepicker-bs4.min.css" rel="stylesheet" />
-<!-- For Bulma -->
-<link href="dist/css/datepicker-bulma.min.css" rel="stylesheet" />
-<!-- For Foundation -->
-<link href="dist/css/datepicker-foundation.min.css" rel="stylesheet" />
+    <!-- Standalone -->
+    <link href="dist/css/datepicker.min.css" rel="stylesheet" />
+    
+    <!-- For Bootstrap 4 -->
+    <link href="dist/css/datepicker-bs4.min.css" rel="stylesheet" />
+    
+    <!-- For Bulma -->
+    <link href="dist/css/datepicker-bulma.min.css" rel="stylesheet" />
+    
+    <!-- For Foundation -->
+    <link href="dist/css/datepicker-foundation.min.css" rel="stylesheet" />
 
 ### 2. Include the main JavaScript and local files at the end of the document.
 
